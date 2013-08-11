@@ -1,3 +1,76 @@
 .main_section {
 	
 }
+
+html {
+   height: 100%;
+} 
+
+body {
+	background-color: #664400;
+} 
+
+#Main_Header {
+	position: fixed;
+	width: 80%;
+	height: 20%;
+	top: 1%;
+	left: 10%;
+}
+
+#Main_Header_Nav {
+	background-color: #117711;
+
+	-webkit-box-align: center; -moz-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+
+	opacity: 0.5;
+}
+
+#Main_Header_Div_RightSide {
+	text-align: right;
+	flex-item: 1;
+}
+
+#Main_Header_Div_LeftSide {
+	text-align: left;
+}
+
+#Main_Div {
+
+  margin: auto;
+
+  top: 0%; left: 0%; bottom: 0; right: 0;
+
+   height: 100%;
+   width: 100% /* needed for Firefox */
+}
+
+#Main_Section {
+  
+ 	top: 20%; left: 20%; bottom: 0; right: 0;
+  position: absolute;
+	background-color: #555555;
+	width: 60%;
+	height: 60%;
+}
+
+
+#Main_Footer {
+	position: fixed;
+	top:79%;
+	left:10%;
+	width: 80%;
+	height: 20%;
+	background-color: #1122ff;
+	text-align: center;
+	align-items: center;
+
+}
+
+li {
+	display: inline;
+	font-size: 1em;
+}
